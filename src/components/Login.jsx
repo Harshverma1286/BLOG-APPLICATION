@@ -8,6 +8,8 @@ import {useForm} from 'react-hook-form';
 import Input from "./Input";
 import Logo from "./Logo";
 
+import Button from "./Button";
+
 
 function Login(){
     const navigate = useNavigate();
@@ -70,10 +72,10 @@ function Login(){
                         required:true,
                     })}
                     />
-                    <button
+                    <Button
                     type="submit"
                     className="w-full"
-                    >Sign in</button>
+                    >Sign in</Button>
                 </div>
             </form>
         </div>
